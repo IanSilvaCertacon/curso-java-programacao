@@ -20,5 +20,7 @@ public class Main {
         System.out.println(Matematica.limite);
         System.out.println(somaNaoEstatica);
         System.out.println(soma);
+
+        System.out.println(Matematica.limite);
     }
 }

@@ -1,8 +1,8 @@
 package OriObj;
 
 public class Casa {
-    boolean inteligente;
-    String nome;
+    public Boolean inteligente;
+    public String nome;
     
     public Casa(){
         
@@ -12,7 +12,7 @@ public class Casa {
         this.inteligente = inteligente;
     }
 
-    void acenderLuz(int comodo){
+    public void acenderLuz(int comodo){
         if (inteligente)
         System.out.println("Comando de voz");
         else
