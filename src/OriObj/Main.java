@@ -15,12 +15,24 @@ public class Main {
         casa3.nome = "Sua casa";
         System.out.println(casa3.nome);*/
 
-        Double soma = Matematica.sum(1.0, 1.0);
+        /*Double soma = Matematica.sum(1.0, 1.0);
         Double somaNaoEstatica = new Matematica().somaNaoEstatica(1.0, 1.0);
         System.out.println(Matematica.limite);
         System.out.println(somaNaoEstatica);
         System.out.println(soma);
 
         System.out.println(Matematica.limite);
+        */
+
+        Usuario u1 = new Usuario();
+        u1.username = "u1";
+
+        Usuario u2 = new Usuario();
+        u2.username = "u1";
+
+        System.out.println(u1.equals(u2));
+        System.out.println(u1);
+        System.out.println(u2);
+
     }
 }
