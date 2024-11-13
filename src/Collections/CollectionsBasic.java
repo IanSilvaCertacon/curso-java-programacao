@@ -69,7 +69,7 @@ public class CollectionsBasic {
         System.out.println("Array: " + Arrays.toString(arrayConverted));
 
         Map<String, String> mapOfUsers = new HashMap<>(){{
-            put("giuliana", "Giuliana"); /
+            put("giuliana", "Giuliana"); 
             put("leia", "Leia");
             put("rey", "Rey");
         }};
