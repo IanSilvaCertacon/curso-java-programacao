@@ -56,7 +56,11 @@ public class Strings {
         String email = "ian@gmail.com";
 
         //String textoFormatado = "Olá eu sou o " + nome + ", meu usuário é " + username + ", e meu email é o " + email;
-        String textoFormatado = "Olá eu sou o %s, meu usuário é %s, e meu email é o %s"
+        String textoFormatado = """
+            Olá eu sou o %s, meu usuário é %s, e meu email é o %s
+            Eu posso ter
+            multiplas linhas
+            """
         .formatted(nome, username, email);
 
         System.out.println(textoFormatado);
