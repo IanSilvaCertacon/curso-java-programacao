@@ -35,11 +35,31 @@ public class Strings {
         String idade = "20";
         Integer idadeInt = Integer.valueOf(idade);
         String idadeStr = String.valueOf(idadeInt);
-        idadeStr += " de Idade";
+        idadeStr += " anos de Idade";
 
         System.out.println(idadeStr);
         System.out.println(idadeInt);
 
+        String concatenacao = "Ela " + " é " + "muito" + " comum.";
+
+        StringBuilder builder = new StringBuilder();
+        builder.append("Ela ");
+        builder.append("é ");
+        builder.append("muito ");
+        builder.append("comum.");
+
+        System.out.println(concatenacao);
+        System.out.println(builder.toString());
+
+        String nome = "Ian";
+        String username = "ian";
+        String email = "ian@gmail.com";
+
+        //String textoFormatado = "Olá eu sou o " + nome + ", meu usuário é " + username + ", e meu email é o " + email;
+        String textoFormatado = "Olá eu sou o %s, meu usuário é %s, e meu email é o %s"
+        .formatted(nome, username, email);
+
+        System.out.println(textoFormatado);
 
     }
 }
